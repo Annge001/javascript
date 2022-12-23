@@ -55,14 +55,15 @@ function imprimeNombreFruta (){
 }
 
 function obtieneNombrePersona (){
+    let nombre = '';
+    while(nombre === ''){
+         nombre = prompt('¡Hola! Ingresa tu nombre ');
 
-    let nombre = prompt('¡Hola! Ingresa tu nombre ');
-
-    if (nombre){
-        alert('Un Gusto ' + nombre);
-    }else{
-        alert('¡UPS! hubo un problema, vuelve a intentar ');
+        if (nombre){
+            alert('Un Gusto ' + nombre);
+        }else{
+            alert('¡UPS! hubo un problema, vuelve a intentar ');
+        }
     }
-
 
 }
