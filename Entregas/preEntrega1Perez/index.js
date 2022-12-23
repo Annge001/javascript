@@ -1,4 +1,16 @@
+function obtieneNombrePersona (){
+    let nombre = '';
+    while(nombre === ''){
+        nombre = prompt('¡Hola! Ingresa tu nombre ');
 
+        if (nombre){
+            alert('Un Gusto ' + nombre);
+        }else{
+            alert('¡UPS! hubo un problema, vuelve a intentar ');
+        }
+    }
+
+}
 
 let fruta1, fruta2, fruta3, fruta4;
 
@@ -54,16 +66,4 @@ function imprimeNombreFruta (){
     }
 }
 
-function obtieneNombrePersona (){
-    let nombre = '';
-    while(nombre === ''){
-         nombre = prompt('¡Hola! Ingresa tu nombre ');
 
-        if (nombre){
-            alert('Un Gusto ' + nombre);
-        }else{
-            alert('¡UPS! hubo un problema, vuelve a intentar ');
-        }
-    }
-
-}
