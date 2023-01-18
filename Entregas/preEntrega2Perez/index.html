@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pre Entrega 2</title>
+    <script src="./index2.js"></script>
+
+</head>
+<body>
+<form id="formulario" onsubmit="calcularIMC(); return false">
+    <label for="nombre">Hola!, ¿Cual es tu nombre?:</label>
+    <input type="text" id="nombre">
+    <br>
+    <label for="altura">Escribe tu ALTURA actual (cm):</label>
+    <input type="text" id="altura" required="required">
+    <br>
+    <label for="peso">Escribe tu PESO actual (kg):</label>
+    <input type="text" id="peso" required="required">
+    <br>
+    <button type="submit">Calcular IMC</button>
+    <p id="resultado"></p>
+</form>
+</body>
+</html>
