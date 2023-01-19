@@ -4,7 +4,7 @@ function calcularIMC() {
     var alturaEnMetros = alturaEnCentimetros / 100;
     var pesoEnKilos = parseInt(document.getElementById('peso').value);
 
-    var imc = Math.round(pesoEnKilos / (alturaEnMetros * alturaEnMetros));
+    var imc = pesoEnKilos / (alturaEnMetros * alturaEnMetros);
     var clasificacion;
 
     if (imc < 18.5) {
