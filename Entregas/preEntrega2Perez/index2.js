@@ -22,6 +22,6 @@ function IMC() {
     var clasificacion;
     clasificacion = validarIMC(imc);
 
-    var respuesta = 'Hola, tu IMC es ' + imc + ' y  ' + clasificacion;
+    var respuesta = 'Hola '+ nombre +',  tu IMC es ' + imc.toFixed(1) + ' y  ' + clasificacion;
     alert(respuesta);
 }
